@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.js
+*.d.ts
+*.js.map
+!jest.config.js
+coverage/
+.env
+.DS_Store
+Thumbs.db
