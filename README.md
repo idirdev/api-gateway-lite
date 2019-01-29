@@ -114,3 +114,21 @@ When exceeded, returns `429 Too Many Requests` with `Retry-After` header.
 ## License
 
 MIT
+
+---
+
+## 🇫🇷 Documentation en français
+
+### Description
+API Gateway Lite est une passerelle API légère avec proxy inverse, authentification JWT par service, limitation de débit à fenêtre glissante, disjoncteur automatique (circuit breaker), équilibrage de charge round-robin et surveillance de la santé des upstreams. Construite avec Express et TypeScript.
+
+### Installation
+```bash
+npm install
+npm run dev
+```
+
+La passerelle démarre sur `http://localhost:3000`.
+
+### Utilisation
+Configurez vos services dans `src/config/services.ts` en spécifiant les upstreams, les limites de débit et les options JWT. Les endpoints de gestion (`/gateway/health`, `/gateway/status`, `/gateway/services`) permettent de surveiller l'état de la passerelle en temps réel. Consultez la section **Architecture** et **Service Configuration** ci-dessus pour les détails complets.
