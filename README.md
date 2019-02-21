@@ -132,3 +132,4 @@ La passerelle démarre sur `http://localhost:3000`.
 
 ### Utilisation
 Configurez vos services dans `src/config/services.ts` en spécifiant les upstreams, les limites de débit et les options JWT. Les endpoints de gestion (`/gateway/health`, `/gateway/status`, `/gateway/services`) permettent de surveiller l'état de la passerelle en temps réel. Consultez la section **Architecture** et **Service Configuration** ci-dessus pour les détails complets.
+
